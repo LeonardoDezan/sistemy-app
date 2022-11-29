@@ -12,24 +12,48 @@ body{
       
 }
 
+.logo{
+    height: 320px;
+    margin-bottom: -80px;
+    margin-top: -50px;
+
+}
+
 
 div{
     
     background-color: #BBBFCA;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
     text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #BBBFCA;
+    box-shadow: 15px;
+    
     
 }
 
 label{
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: rgb(29, 29, 29);
+    font-size: 30px;
+    font-weight: 500;
+    color: #565657;
 
+}
+
+input{
+    border: none;
+    background-color: #d0d2d6 ;
+    height: 40px;
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #565657;
 }
 
