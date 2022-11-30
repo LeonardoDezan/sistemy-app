@@ -28,7 +28,7 @@ div{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     border-style: solid;
     border-radius: 20px;
@@ -47,7 +47,7 @@ label{
 
 }
 
-input{
+input.inputLogin{
     border: none;
     background-color: #d0d2d6 ;
     height: 40px;
@@ -56,9 +56,35 @@ input{
     font-size: 25px;
     margin-left: 10px;
     color: #565657;
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
-.btnLogin{
-    padding: 10px 5px;
+input.inputSenha{
+    border: none;
+    background-color: #d0d2d6 ;
+    height: 40px;
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #565657;
+    margin-bottom: 50px;
+}
+
+a.btnAcessar{
+    background: rgba(102, 51, 153, 0.89);
+    padding: 20px 230px;
+    color: #BBBFCA;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 500;
+
+}
+
+a.btnAcessar:hover{
+    background: rebeccapurple;
+
 }
 
