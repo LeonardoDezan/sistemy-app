@@ -2,89 +2,25 @@
     border-style: none;
     margin: 0;
 
+}
+
+
+.topo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(144, 144, 150);
+    width: 100%;
     
 }
 
-body{
-    background-color: #565657 ;
-    border-left: 35%;
-    
-    
-      
+.logoSistemy{
+    justify-content: flex-start ;
 }
 
-.logo{
-    height: 320px;
-    margin-bottom: -80px;
-    margin-top: -50px;
-
-}
-
-
-div{
-    
-    background-color: #BBBFCA;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 50px;
-    text-align: center;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #BBBFCA;
-    box-shadow: 15px;
-    
+.logoBrastem{
     
 }
 
-label{
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: #565657;
 
-}
 
-input.inputLogin{
-    border: none;
-    background-color: #d0d2d6 ;
-    height: 40px;
-    width: 70%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    margin-left: 10px;
-    color: #565657;
-    margin-bottom: 15px;
-    margin-top: 25px;
-}
-
-input.inputSenha{
-    border: none;
-    background-color: #d0d2d6 ;
-    height: 40px;
-    width: 70%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    margin-left: 10px;
-    color: #565657;
-    margin-bottom: 50px;
-}
-
-a.btnAcessar{
-    background: rgba(102, 51, 153, 0.89);
-    padding: 20px 230px;
-    color: #BBBFCA;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 15px;
-    font-weight: 500;
-
-}
-
-a.btnAcessar:hover{
-    background: rebeccapurple;
-
-}
 
