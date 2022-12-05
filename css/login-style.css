@@ -14,3 +14,104 @@ body{
 
 }
 
+h2{
+    font-size: 30px;
+    color: #008CAC;
+    margin: 20px;
+}
+
+.container{
+    width: 350px;
+    background: #fffbf8e8;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.438);
+    padding: 50px 20px;
+
+}
+
+input{
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    transition: .20s ease-in-out;
+    font-size: 15px;
+}
+
+.input-field{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(18px);
+    transition: .20s ease-in-out;
+}
+
+input:focus{
+    border-bottom: 2px solid #008CAC;
+
+}
+
+input:focus + label{
+    transform: translateY(-14px) scale(.8);
+    color: #008CAC;
+    font-weight: bold;
+
+}
+
+
+input:not(:placeholder-shown) + label{
+    transform: translateY(-14px) scale(.8);
+    color: #008CAC;
+    font-weight: bold;   
+
+}
+
+
+input:not(:placeholder-shown){
+    border-bottom: 2px solid #008CAC;
+}
+
+
+input::placeholder{
+    color: transparent;
+}
+
+button{
+    padding: 15px 80px;
+    margin: 20px;
+    background-color: #008dacbd;
+    border: none;
+    color: #fffbf8de;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: ease-in-out .20s;
+}
+
+button:hover{
+    background-color: #008CAC;  
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out.20s;
+}
+
+a:hover{
+    color: #008CAC;
+}
