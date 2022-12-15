@@ -1,1 +1,9 @@
-<h1>teste</h1>
+<?php
+//CONSTANTES
+define("nome", "leonardo");
+
+echo nome;
+
+
+
+?>
