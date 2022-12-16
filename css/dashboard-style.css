@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #C0C0C090;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.menu-left{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.menu-left li{
+    list-style-type: none;
+    display: flex;    
+}
+
+.menu-left a{
+    padding: 15px;
+    display: flex;
+    background-color: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.menu-left a:hover{
+background-color: #C0C0C0;
+
+}
+
+.menu-right{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-sistemy{
+    width: 80%;
+    background-image: url(../img/sistemy-logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.btn-sair a{
+    padding: 15px;
+    display: flex;
+    background-color: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+}
+
+.btn-sair a:hover{
+    background-color: #C0C0C0;
+}
+
+.main{
+    background-color: #EBEBEB;
+}
