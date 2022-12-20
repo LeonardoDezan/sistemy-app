@@ -5,29 +5,140 @@
 }
 
 nav{
-    border: 1px green solid;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 70px;
+    justify-content: space-between;
+    text-align: center;
+    width: 64px;
     height: 100%;
     background: linear-gradient(0deg, rgb(15, 162, 230) , rgb(14, 127, 219));
-    align-items: center;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
-.logo-sistemy{
-    position: absolute;
-   
-    
+.container-logo{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.home{
+    background-image: url(../img/botao-home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    width: 100%;
+}
+
+.home:hover{
+    background-size: 60%;
 }
 
 .menu-central{
-    position: absolute;
-    display: flex;
     flex-direction: column;
-    top: 50%;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-central ul{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu-central li{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.cadastros{
+    color: transparent;
+    display: flex;
+    background-image: url(../img/cadastros-icone.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65%;
+}
+
+.cadastros:hover{
+    height: 70%;
+}
+
+.estoque{
+    color: transparent;
+    display: flex;
+    background-image: url(../img/estoque-icone.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65%;
+    width: 100%;
+}
+
+.estoque:hover{
+    height: 70%;
+}
+
+.producao{
+    color: transparent;
+    display: flex;
+    background-image: url(../img/produção-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65%;
+    transform: translateY(-9px)
+}
+
+.producao:hover{
+    height: 70%;
+}
+
+.vendas{
+    color: transparent;
+    display: flex;
+    background-image: url(../img/vendas-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65%;
+    margin-left: 7px;
+    transform: translateY(-10px)
+}
+
+.vendas:hover{
+    height: 70%;
+}
+
+.container-logout{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout{
+    color: transparent;
+    background-image: url(../img/logout-icone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65%;
+}
+
+.logout:hover{
+    background-size: 90%;
 }
