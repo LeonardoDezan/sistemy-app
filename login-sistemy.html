@@ -13,19 +13,19 @@
 <body>
     <div class="container">
         <h2>Login</h2>
-        <form action="">
+        <form  method="get" action="index.php">
             <div class="input-field">
-                <input type="text" maxlength="11" id="cpf" placeholder="Digite seu CPF">
+                <input type="text" name="cpf" maxlength="11" id="cpf" placeholder="Digite seu CPF">
                 <label for="cpf">CPF</label>
             </div><!--FINAL CAMPO CPF-->
 
             <div class="input-field">
-                <input type="password" maxlength="6" id="senha" placeholder="Digite sua Senha">
+                <input type="password" name="senha" maxlength="6" id="senha" placeholder="Digite sua Senha">
                 <label for="senha">Senha</label>
             </div><!--FINAL CAMPO SENHA-->
 
             <div class="center">
-                <button>Acessar</button>
+                <button type="submit">Acessar</button>
             </div><!--FINAL BOTÃO-->
         </form>
         <!-- FINAL FORMULARIO LOGIN -->
