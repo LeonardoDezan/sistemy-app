@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,23 +11,31 @@
     <link rel="stylesheet" href="css/login-style.css">
 </head>
 
-
 <body>
     <div class="container">
         <h2>Login</h2>
-        <form  method="get" action="index.php">
+        <form  method="post" action="">
             <div class="input-field">
-                <input type="text" name="cpf" maxlength="11" id="cpf" placeholder="Digite seu CPF">
+                <input type="text" name="cpf" maxlength="11" id="cpf" placeholder="Digite seu CPF" required>
                 <label for="cpf">CPF</label>
+                <span class="aviso-erro">
+                    <!-- AVISO DE ERRO -->
+                </span>
             </div><!--FINAL CAMPO CPF-->
 
             <div class="input-field">
-                <input type="password" name="senha" maxlength="6" id="senha" placeholder="Digite sua Senha">
+                <input type="password" name="senha" maxlength="6" id="senha" placeholder="Digite sua Senha" required>
                 <label for="senha">Senha</label>
+                <span class="aviso-erro">
+                    <!-- AVISO DE ERRO -->
+                </span>
             </div><!--FINAL CAMPO SENHA-->
 
             <div class="center">
                 <button type="submit">Acessar</button>
+                <span class="aviso-erro">
+                    <!-- AVISO DE ERRO -->
+                </span>
             </div><!--FINAL BOTÃO-->
         </form>
         <!-- FINAL FORMULARIO LOGIN -->

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro-clientes.css">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+    <form method="post" name="cliente" action="cadastro-clientes.php">
+        <!-- DATA DO CADASTRO -->
+        <div>
+            <label for="data_cadastro">Data do Cadastro:</label>
+            <input type="date" id="data_cadastro" name="data_cadastro">
+        </div>
+        <!-- TIPO DE CLIENTE -->
+        <div>
+            <label for="tipo">Tipo:</label>
+            <input type="text" id="tipo" name="tipo" maxlength="20">
+        </div>
+        <!-- CNPJ -->
+        <div>
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj" maxlength="14">
+        </div>
+        <!-- RAZÃO SOCIAL -->
+        <div>
+            <label for="razao-social">Razão Social:</label>
+            <input type="text" id="razao-social" name="razao-social" maxlength="50">
+        </div>
+        <!-- IE -->
+        <div>
+            <label for="ie">Inscrição Estadual:</label>
+            <input type="text" id="ie" name="ie" maxlength="9">
+        </div>
+        <!-- ENDEREÇO -->
+        <div>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco" maxlength="150">
+        </div>
+        <!-- BAIRRO -->
+        <div>
+        <label for="bairro">Bairro:</label>
+        <input type="text" name="bairro" id="bairro" maxlength="50">
+        </div>
+        <!-- CIDADE -->
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" maxlength="50">
+        </div>
+        <!-- EMAIL -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <!-- TELEFONE COMPRAS -->
+        <div>
+            <label for="fone-compras">Telefone Compras:</label>
+            <input type="text" id="fone-compras" name="fone-compras" maxlength="11">
+        </div>
+        <!-- COMPRADOR -->
+        <div>
+            <label for="comprador">Comprador:</label>
+            <input type="text" id="comprador" name="comprador" maxlength="50">
+        </div>
+        <!-- SUBMIT -->
+        <div>
+            <input type="submit" name="enviar" value="enviar">
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
