@@ -9,11 +9,13 @@
 </head>
 </html>
 
+<!-- INCLUSÃO DE ARQUIVOS -->
 <?php
 include_once "config.php";
 
 ?>
 
+<!-- INCLUIR UM NOVO REGISTRO NO BANCO DE DADOS -->
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $tipo = $_POST['tipo'];
@@ -38,13 +40,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 }
 
-
+// PESQUISA DE INFORMAÇÕES NA TABELA DE CLIENTES DO BANCO DE DAODS
 if (isset($_GET['pesquisar'])){
     $pesquisar = $_GET['pesquisar'];
-    $resultado_pesquisar = "SELECT * FROM tb_clientes WHERE razao_social like '%$pesquisar%'";
+    $resultado_pesquisar = "SELECT * FROM tb_clientes WHERE razao_social like '%$pesquisar%' or cnpj like '%$pesquisar%'";
     $resultado = mysqli_query($conexao, $resultado_pesquisar);
     while ($linha = mysqli_fetch_array($resultado)){
-        echo $razao_social_busca = $linha['razao_social'];
+        echo $search_id = "-" . $linha['id'];
+        echo $search_razao =  "-" . $linha['razao_social'];
+        echo $search_cnpj =  "-" . $linha['cnpj'];
         echo "<br/>";
     }
 
