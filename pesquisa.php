@@ -23,8 +23,7 @@ if (isset($_GET['pesquisar'])){
         echo $search_razao =$linha['razao_social'];
         echo "<br/>";
     }
-
-
+    
 }
 
 ?>
