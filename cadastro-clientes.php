@@ -49,6 +49,7 @@ if (isset($_GET['pesquisar'])){
         echo $search_id = "-" . $linha['id'];
         echo $search_razao =  "-" . $linha['razao_social'];
         echo $search_cnpj =  "-" . $linha['cnpj'];
+        echo $search_cnpj = "<a href='#'". $linha['id'] . '>Deletar</a>';
         echo "<br/>";
     }
 
