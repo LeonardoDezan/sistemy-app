@@ -38,17 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
    }
     mysqli_close($conexao);
 
-    if (isset($_GET['pesquisar'])){
-        $pesquisar = $_GET['pesquisar'];
-        $resultado_pesquisar = "SELECT * FROM tb_clientes WHERE razao_social like '%$pesquisar%' or cnpj like '%$pesquisar%'";
-        $resultado = mysqli_query($conexao, $resultado_pesquisar);
-        while ($linha = mysqli_fetch_array($resultado)){
-            echo $search_razao =$linha['razao_social'];
-            echo "<br/>";
-        }
-        
-    }
 
+    
 }
 
 ?>
