@@ -21,7 +21,7 @@ if (isset($_GET['pesquisar'])){
         echo $search_razao =$linha['id'];
         echo $search_razao =$linha['razao_social'];
         echo $search_razao =$linha['cnpj'];
-        echo '<a href=deletar.php?id=' . $linha['id'] . '>Deletar</a>';
+        echo '<a href=deletar.php?id=' . $linha['id'] . '>Deletar</a> | <a href=editar.php?id=' . $linha['id'] . '>Editar</a>';
         echo "<br/>";
     }
     
